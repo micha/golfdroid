@@ -17,6 +17,8 @@ Building the Example App
 ------------------------
 
 * Download the app: <code>git clone git@github.com:micha/golfdroid</code>
-* Create the project in Eclipse
-   + From the main menu select _File->New->Android Project_
-   + From the main menu select _File->New->Android Project_
+* From the main Eclipse menu select _File->New->Android Project_
+* Select the radio button _Create project from existing source_
+* Click the _Browse_ button and navigate to the golfdroid repo location
+* Click _Finish_
+* Build and run the app
