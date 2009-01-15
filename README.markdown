@@ -9,18 +9,12 @@ Prerequisites
 -------------
 
 * Java SDK v1.5+
-
 * Android SDK v1.0
-
 * Eclipse v3.4+
-
 * Android plugin for Eclipse
 
 Building the Example App
 ------------------------
 
-* Clone the golfdroid repo:
-
-      git clone git@github.com:micha/golfdroid
-
-* Hello!
+* Clone the golfdroid repo: @@@git clone git@github.com:micha/golfdroid@@@
+* this is test
