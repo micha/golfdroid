@@ -1,5 +1,6 @@
 bin/*
 *.swp
 *~
+*/R.java
 .classpath
 .project
