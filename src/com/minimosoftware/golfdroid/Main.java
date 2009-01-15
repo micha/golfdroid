@@ -1,4 +1,4 @@
-package com.oculi.webtest;
+package com.minimosoftware.golfdroid;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
