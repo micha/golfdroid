@@ -7,6 +7,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
@@ -18,6 +22,14 @@ public class Main extends Activity {
 	private class MyJavaAPI {
 		public void log(String s) {
 			Log.e("JAVASCRIPT", s);
+		}
+		
+		public void notify(String title, String text) {
+			NotificationManager nM = (NotificationManager) Main.this.getSystemService(NOTIFICATION_SERVICE);
+			Notification notification = new Notification(R.drawable.stat_sample, text, System.currentTimeMillis());
+			PendingIntent contentIntent = PendingIntent.getActivity(Main.this, 0, new Intent(Main.this, Main.class), 0);
+			notification.setLatestEventInfo(Main.this, title, text, contentIntent);
+			nM.notify(1, notification);
 		}
 	}
 	
