@@ -17,5 +17,5 @@ Building the Example App
 ------------------------
 
 * Download the app: <code>git clone git@github.com:micha/golfdroid</code>
-* Create the project in Eclipse:
+* Create the project in Eclipse
     * From the main menu select _File->New->Android Project_
