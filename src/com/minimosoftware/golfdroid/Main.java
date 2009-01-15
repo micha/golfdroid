@@ -24,12 +24,12 @@ public class Main extends Activity {
 			Log.e("JAVASCRIPT", s);
 		}
 		
-		public void notify(String title, String text) {
+		public void notify(int id, String title, String text) {
 			NotificationManager nM = (NotificationManager) Main.this.getSystemService(NOTIFICATION_SERVICE);
 			Notification notification = new Notification(R.drawable.stat_sample, text, System.currentTimeMillis());
 			PendingIntent contentIntent = PendingIntent.getActivity(Main.this, 0, new Intent(Main.this, Main.class), 0);
 			notification.setLatestEventInfo(Main.this, title, text, contentIntent);
-			nM.notify(1, notification);
+			nM.notify(id, notification);
 		}
 	}
 	
