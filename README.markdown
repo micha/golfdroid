@@ -16,5 +16,5 @@ Prerequisites
 Building the Example App
 ------------------------
 
-* Clone the golfdroid repo: @@@git clone git@github.com:micha/golfdroid@@@
+* Clone the golfdroid repo: <code>git clone git@github.com:micha/golfdroid</code>
 * this is test
